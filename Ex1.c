@@ -1,13 +1,5 @@
 #include <stdio.h>
 
-void Cubo() {
-    int x;
-    printf("Digite o numero: ");
-    scanf("%d", &x);
-    x = x*x*x;
-    printf("%d", x);
-}
-
 void Quadrado() {
     int i, x, y;
     printf("Digite o numero: ");
