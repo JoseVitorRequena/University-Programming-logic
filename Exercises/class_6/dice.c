@@ -3,16 +3,11 @@
 #include <time.h>
 
 int *dice(int n){ 
-    int *v = (int*) malloc( 6 * sizeof(int));
-    for (int i = 0; i < 6; i++){ 
-        v[i] = 0;
-    }
+    int *v = (int*) calloc(6, sizeof(int));
     srand(time(NULL));
     for (int i = 0; i < n; i++){ 
-        int p = rand()%6+1;
-        switch (p){
-            default: v[p] = v[p]+1; break;
-        }
+        int p = rand()%6;
+        v[p] = v[p]+1;
     }
     return v;
 }
