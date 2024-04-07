@@ -1,4 +1,5 @@
 # List #1 Algorithms
+
 1. Temperature Converter: Convert a given temperature in Celsius to Fahrenheit.
 
 2. Approval Verification: Given a student's average and the passing average, check whether the student has passed or not.
