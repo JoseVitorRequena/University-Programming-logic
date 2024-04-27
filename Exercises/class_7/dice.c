@@ -18,6 +18,7 @@ void main(){
     scanf("%d", &n);
     int *l = dice(n);
     for(int i = 0; i < 6; i++){
-        printf("Numbers %d: %0.1f\n", i+1, (float)l[i]*100.0/n);
+        printf("Ocorrencia %d: %0.1f\n", i+1, (float)l[i]);
+        printf("Numbers %d: %0.1f\n\n", i+1, (float)l[i]*100/n);
     }
 }
